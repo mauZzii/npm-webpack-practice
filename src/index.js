@@ -9,3 +9,14 @@ function component() {
 }
 
 document.body.appendChild(component());
+
+import myName from './myName';
+
+function component2() {
+    const element = document.createElement('div');
+
+    element.textContent = myName('Austin');
+    return element;
+}
+
+document.body.appendChild(component2());
