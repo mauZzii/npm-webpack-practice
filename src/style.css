@@ -1,12 +1,14 @@
 @font-face {
-    font-family: 'AnandaBlackRegular';
-    src: url(./AnandaBlackRegular.ttf) format('ttf');
+    font-family: 'MyFont';
+    src: url('./AnandaBlackRegular.ttf') format('ttf'),
+        url('./abeatbyKaiRegular.otf'), format('otf');
     font-weight: 600;
     font-style: normal;
 }
 
 .hello {
     color: red;
-    font-family: AnandaBlackRegular;
-    background: url('./header.svg');
+    font-family: 'MyFont';
+    /* background: url('./header.svg');
+    background-repeat: no-repeat; */
 }
