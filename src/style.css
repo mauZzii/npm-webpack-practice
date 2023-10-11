@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'AnandaBlackRegular';
+    src: url(./AnandaBlackRegular.ttf) format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
 .hello {
     color: red;
+    font-family: AnandaBlackRegular;
+    background: url('./header.svg');
 }
